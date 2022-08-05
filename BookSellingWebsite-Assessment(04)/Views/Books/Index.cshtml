@@ -1,0 +1,58 @@
+﻿@model IEnumerable<BookSellingWebsite_Assessment_04_.Model.Book>
+
+@{
+    ViewData["Title"] = "Get";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    body {
+    background-color:lightgreen;
+    }
+</style>
+
+<center><h1>ManageBookByAdmin</h1></center>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Search">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-7">
+            <input type="search" name="searchString" class="form-control"/>
+        </div>
+        <div class="col-md-1">
+            <input type="submit" value="Search" class="btn btn-warning"/>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</form><br />
+<div class="row">
+@foreach(var item in Model)
+{
+       
+
+            <div class="col-sm-3">
+                <div class="card" style="width: 18rem;">
+                     <img class="card-img-top" src="https://www.bookgeeks.in/wp-content/uploads/2022/01/The-Shadow-on-the-Wall-by-Ruskin-Bond-1200x1720.jpg" alt="Card image cap">
+                     <div class="card-body">
+                      <h6 class="card-title">@item.Name</h6>
+                      <h6 class="card-title">@item.Cost</h6>
+                      <h6 class="card-title">@item.Zoner</h6>
+                      
+
+
+                      
+                       <a asp-action="Description"  asp-route-id="@item.Id" class="btn btn-outline-danger">Details</a>
+                       <a asp-action="Update"  asp-route-id="@item.Id" class="btn btn-outline-danger">Edit</a>
+                        <a asp-action="Delete"  asp-route-id="@item.Id" class="btn btn-outline-danger">Delete</a>
+
+                     </div>
+                 </div> 
+                 
+            </div>
+            }
+            </div>
+
+            

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookSellingWebsite-Assessment(04)(MVC)", "BookSellingWebsite-Assessment(04)\BookSellingWebsite-Assessment(04)(MVC).csproj", "{E4EA3158-115E-4DB3-80A7-B3B469874DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookSellingAssessment(API)", "..\BookSellingAssessment(API)\BookSellingAssessment(API).csproj", "{E3232063-6CE5-40AC-B263-6D1F78A1B57B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4EA3158-115E-4DB3-80A7-B3B469874DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EA3158-115E-4DB3-80A7-B3B469874DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EA3158-115E-4DB3-80A7-B3B469874DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EA3158-115E-4DB3-80A7-B3B469874DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3232063-6CE5-40AC-B263-6D1F78A1B57B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3232063-6CE5-40AC-B263-6D1F78A1B57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3232063-6CE5-40AC-B263-6D1F78A1B57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3232063-6CE5-40AC-B263-6D1F78A1B57B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB75043C-F807-4F86-BBEA-AF652530EBAE}
+	EndGlobalSection
+EndGlobal

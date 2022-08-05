@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:BookSellingWebsite_Assessment_04_Context"
+    }
+  }
+}
